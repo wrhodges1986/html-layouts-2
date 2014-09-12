@@ -1,0 +1,99 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	float: left;
+	color: white;
+	text-align: right;
+}
+
+footer p {
+	color: white;
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 50px;
+	font-size: 24px;
+}
+
+.container {
+	width: 80%;
+	height: 1000px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.contentSection {
+	background-color: gray;
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+.contentUpper {
+	margin-bottom: 100px;
+}
+
+.headerText {
+	height: 250px;
+	width: 100%;
+	font-size: 200px;
+	text-align: center;
+	line-height: 250px;
+}
+
+.redButton {
+	width: 300px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 84px;
+	color: white;
+}
+
+.blueButton {
+	width: 300px;
+	height: 100px;
+	background-color: #0099CC;
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 84px;
+	color: white;
+}
+
+.imgContainer {
+	height: 250px;
+	width: 60%;
+	position: absolute;
+	top: 30px;
+	left: 20%;
+}
+
+#imgContent {
+	height: 100%;
+	width: 100%;
+}
+
+.bodyText {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	font-size: 48px;
+}
