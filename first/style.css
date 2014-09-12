@@ -1,0 +1,74 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.head {
+	height: 200px;
+	width: 100%;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subHead {
+	width: calc(33% - 10px);
+	height: 200px;
+	float: left;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+.red {
+	background: red;
+}
+
+.black {
+	background: black;
+}
+
+.blue {
+	background: blue;
+}
+
+.gray {
+	background: gray;
+	width: 60%;
+	height: 75px;
+	float: left;
+}
+
+.textContainer {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.midsectionOne {
+	width: 70%;
+	height: 200px;
+	float: left;
+}
+
+.midsectionTwo {
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+
+.footerRight {
+	width: 40%;
+	height: 75px;
+	float: left;
+	position: relative;
+}
+
+.footerCenter {
+	width: 10%;
+	height: 75px;
+	position: absolute;
+	top: 0;
+	left: 40%;
+}
